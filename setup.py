@@ -6,9 +6,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="data_loader",
     version="0.0.1",
-    author="Cedd Burge",
-    author_email="ceddlyburge@gmail.com",
-    description="A function that returns 'world'",
+    author="Matt Martin",
+    description="A function that generates returns data from Yahoo Finance",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
